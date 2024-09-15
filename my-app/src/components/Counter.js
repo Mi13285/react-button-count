@@ -1,8 +1,7 @@
+import React from "react";
+
 function Counter({ count }) {
-  return (
-    <div>
-      <h1>Total clicks: {count}</h1>
-    </div>
-  );
+  return <div>Clicks {count}</div>;
 }
+
 export default Counter;

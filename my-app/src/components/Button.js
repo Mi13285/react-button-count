@@ -1,8 +1,4 @@
-function Button({ onClick }) {
-  return (
-    <div className="button">
-      <button onClick={onClick}>click me!</button>
-    </div>
-  );
+import React from "react";
+export default function Button({ onClick }) {
+  return <button onClick={onClick}>click</button>;
 }
-export default Button;
